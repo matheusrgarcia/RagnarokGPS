@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RagnarokGPS</string>
+    <string name="button_credits">Créditos</string>
+    <string name="button_map">Mapa</string>
+    <string name="button_gnss">GNSS</string>
+    <string name="button_config">Configurações</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="credits_textView">Feito por:</string>
+</resources>
