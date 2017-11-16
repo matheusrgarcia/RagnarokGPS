@@ -63,9 +63,8 @@ public class TelaPrincipal extends AppCompatActivity implements View.OnClickList
                 break;
 
             case R.id.button_credits:
-                /*Intent credits = new Intent(this, CreditsActivity.class);
+                Intent credits = new Intent(this, CreditsActivity.class);
                 startActivity(credits);
-                 */
                 break;
         }
 
