@@ -98,7 +98,7 @@ public class TelaPrincipal extends AppCompatActivity implements View.OnClickList
         try {
             locProvider = locManager.getProvider(LocationManager.GPS_PROVIDER);
             locManager.requestLocationUpdates(locProvider.getName(), 30000, 1, this);
-            locManager.addGpsStatusListener(this); //Não sei por que esta referência não funciona. ??? //Voltou a funcionar do nada WTF
+            locManager.addGpsStatusListener(this);
         } catch (SecurityException e) {
             e.printStackTrace();
         }
